@@ -1,0 +1,59 @@
+{
+    "Products": [
+      {
+        "id": 1,
+        "name": "Product 1",
+        "image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "category": "Category A",
+        "new_price": 19.99,
+        "old_price": 24.99,
+        "available": true
+      },
+      {
+        "id": 2,
+        "name": "Product 2",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "category": "Category B",
+        "new_price": 29.99,
+        "old_price": 34.99,
+        "available": false
+      },
+      {
+        "id": "3",
+        "name": "Product 3",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "category": "Accessories",
+        "new_price": 39.99,
+        "old_price": 44.99,
+        "available": true
+       }, {
+      "id": 4,
+      "name": "Product 1",
+      "image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "category": "Accessories",
+      "new_price": 19.99,
+      "old_price": 24.99,
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "Product 2",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "category": "Category B",
+      "new_price": 29.99,
+      "old_price": 34.99,
+      "available": false
+    },
+    {
+      "id": 6,
+      "name": "Product 3",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "category": "Category A",
+      "new_price": 39.99,
+      "old_price": 44.99,
+      "available": true
+    } 
+    ]
+  }
+
+  

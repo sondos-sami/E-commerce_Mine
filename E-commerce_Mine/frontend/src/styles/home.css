@@ -1,0 +1,47 @@
+#message {
+    background-color: #1B1B1B;
+    font-family: "Lato", sans-serif;
+}
+
+#message i{
+    color: #0951AA;
+    font-size: 39.9px;
+    font-weight: 400;
+}
+
+.message-p1{
+   font-size: 27px;
+   font-weight: 400;
+   color: #8B8B8B;
+   padding: 0 50px;
+   text-align: center;
+}
+
+
+.message-p2{
+    font-size: 19.44px;
+    font-weight: 400;
+    color: #CACACA;
+ }
+
+ 
+.message-p3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #BBBBBB;
+    padding-bottom: 50px;
+ }
+
+.carousel-indicators .btn-corresor{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  
+ }
+
+.carousel-indicators .btn-corresor{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  
+ }

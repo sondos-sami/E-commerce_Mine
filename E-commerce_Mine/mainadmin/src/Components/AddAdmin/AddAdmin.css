@@ -1,0 +1,26 @@
+.add-admin {
+    padding: 20px;
+  }
+  
+  .add-admin h2 {
+    margin-bottom: 20px;
+  }
+  
+  .add-admin input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-admin button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-admin button:hover {
+    background-color: #218838;
+  }
+  

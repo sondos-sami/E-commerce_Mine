@@ -1,0 +1,38 @@
+.add-delete-admin {
+    padding: 20px;
+  }
+  
+  .admin-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-form input {
+    margin-bottom: 10px;
+  }
+  
+  .admin-form button {
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .admin-list {
+    margin-top: 20px;
+  }
+  
+  .admin-list ul {
+    list-style-type: none;
+  }
+  
+  .admin-list button {
+    margin-left: 10px;
+    padding: 4px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
