@@ -1,66 +1,76 @@
- 
-import { Carousel, Container, Row, Col, Card } from 'react-bootstrap';
+import React from 'react';
+import { Container, Row, Col, Card, Button, Navbar, Nav, Carousel } from 'react-bootstrap';
+import { Link } from 'react-router-dom'; // Import Link for navigation
 
 const Home = () => {
   return (
-    <Container>
-      {/* Slider */}
-      <Carousel>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://althemist.com/wp-content/uploads/2019/07/babystreet-portfolio-main2023.jpg"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>First Slide</h3>
-            <p>Some representative placeholder content for the first slide.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://via.placeholder.com/800x400?text=Slide+2https://althemist.com/wp-content/uploads/2019/07/babystreet-portfolio-main2023.jpg"
-            alt="Second slide"
-          />
-          <Carousel.Caption>
-            <h3>Second Slide</h3>
-            <p>Some representative placeholder content for the second slide.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://via.placeholder.com/800x400?text=Slide+3"
-            alt="Third slide"
-          />
-          <Carousel.Caption>
-            <h3>Third Slide</h3>
-            <p>Some representative placeholder content for the third slide.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+    <>
+     
+      {/* Carousel Section */}
+      <Container className="mt-5">
+        <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://media.istockphoto.com/id/1428709516/photo/shopping-online-woman-hand-online-shopping-on-laptop-computer-with-virtual-graphic-icon.jpg?s=612x612&w=0&k=20&c=ROAncmFL4lbSQdU4VOhyXu-43ngzfEqHE5ZZAw5FtYk="
+              alt="First slide"
+            />
+            <Carousel.Caption>
+              <h3>Winter Collection Sale</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://cdn.elwatannews.com/watan/840x473/3492177581705430815.jpg"
+              alt="Second slide"
+            />
+            <Carousel.Caption>
+            <h3>Winter Collection Sale</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://png.pngtree.com/thumb_back/fh260/background/20230703/pngtree-d-smartphone-with-gifts-and-discount-percentage-e-commerce-web-banner-image_3753281.jpg"
+              alt="Third slide"
+            />
+            <Carousel.Caption>
+            <h3>Winter Collection Sale</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://t3.ftcdn.net/jpg/06/49/80/60/360_F_649806064_gHA9HPb7BsKjhkFze3B3T0Kdf9Aviw4E.jpg"
+              alt="fourth slide"
+            />
+            <Carousel.Caption>
+            <h3>Winter Collection Sale</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+      </Container>
 
-      {/* Product Section */}
-      <h2 className="mt-4">Featured Products</h2>
-      <Row>
-        {Array.from({ length: 4 }).map((_, idx) => (
-          <Col md={3} key={idx} className="mb-4">
-            <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/150" />
-              <Card.Body>
-                <Card.Title>Product {idx + 1}</Card.Title>
-                <Card.Text>
-                  This is a brief description of the product.
-                </Card.Text>
-                <button className="btn btn-primary">Add to Cart</button>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
-      </Row>
-    </Container>
+      {/* Centered Button Section */}
+      <Container
+        className="d-flex justify-content-center align-items-center"
+        style={{ minHeight: '20vh' }} // Full viewport height
+      >
+        <Link to="/product"> {/* Adjust the path according to your routes */}
+          <Button variant="primary">Shop Now</Button>
+        </Link>
+      </Container>
+
+      {/* Footer */}
+      <footer className="bg-dark text-white mt-5 p-4 text-center">
+        <Container>
+          <p>&copy; 2024 My Store. All Rights Reserved.</p>
+        </Container>
+      </footer>
+    </>
   );
 };
 
 export default Home;
+
