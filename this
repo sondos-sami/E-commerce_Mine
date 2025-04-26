@@ -1,0 +1,26 @@
+
+# Project Title
+
+Brief 1-2 sentence description of the project's purpose.  
+Use line breaks for readability in Markdown (trailing double spaces).
+
+## Core Features
+
+- **Feature 1**: Description  
+  - Sub-feature/details
+  - Technical notes (e.g., `methodName()` handles X)
+- **Feature 2**: Description
+
+---
+
+## Implementation
+
+### Component A
+- Key attributes/variables:
+  - `variable1`: Purpose (e.g., "stores document frequency")
+  - `variable2`: Purpose
+- Methods:
+  - `methodX()`: Brief functionality summary
+
+### Component B
+[...]
